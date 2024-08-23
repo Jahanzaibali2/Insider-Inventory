@@ -1,0 +1,15 @@
+input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  .Terms span {
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
+  .Terms span:hover {
+    text-decoration: underline;
+  }
