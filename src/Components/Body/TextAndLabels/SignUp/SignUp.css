@@ -1,0 +1,33 @@
+input[type="text"] {
+    width: 513px;
+    height: 65px;
+    top: 34px;
+    border-radius: 50px 0px 0px 0px;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px 0px 0px 0px;
+    padding: 30px;
+    
+  } 
+
+
+  .y{
+    padding: 15px;
+  }
+  
+.Terms span {
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
+  .Terms span:hover {
+    text-decoration: underline;
+  }
+  
