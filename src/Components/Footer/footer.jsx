@@ -12,7 +12,8 @@ export default function Footer() {
 
 function WholeFooter() {
     return (
-        <div>
+        <div className='ft-main'>
+
             <div className="ft-div">
 
                 <div className="Logo">
@@ -38,7 +39,10 @@ function WholeFooter() {
 
                     </div>
                 </div>
+                <hr />
+                <p>All right are reserved For insider's Inventory</p>
             </div>
+            
         </div>
     )
 }
