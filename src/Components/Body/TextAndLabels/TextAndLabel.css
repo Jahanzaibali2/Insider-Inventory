@@ -1,7 +1,7 @@
 .legendaryDiv {
   width: 1440px;
   height: 1090px;
-  top: 116px;
+  margin-top: 100px;
   gap: 0px;
   opacity: 0px;
   background-color: black;
@@ -21,11 +21,11 @@
 }
 
 .signUp {
-  /* padding: 280px; */
-  width: 513px;
-height: 899px;
-
-margin-left: 150px;
+  width: Hug (513px)px;
+  height: Hug (937.75px)px;
+  /* gap: 38px; */
+  
+  margin-left: 150px;
 
 }
 
@@ -34,6 +34,19 @@ margin-left: 150px;
   width: 659px;
   height: 883px;
   gap: 150px;
-margin-left: 150px;
-  
+  margin-left: 150px;
+
+}
+
+.headingDiv {
+  width: 1600px;
+  height: 100px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headingDiv h1{
+  width: 550px;
+  text-align: center;
 }

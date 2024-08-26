@@ -15,6 +15,9 @@ function TextField() {
     <>
       <div className="legendaryDiv">
 
+      <div className="headingDiv">
+        <h1>Sign-Upto view a Available Inventory Or to list a Property</h1>
+      </div>
         <div className="b-div">
 
 

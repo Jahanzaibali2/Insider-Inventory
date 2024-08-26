@@ -1,33 +1,85 @@
 input[type="text"] {
-    width: 513px;
-    height: 65px;
-    top: 34px;
-    border-radius: 50px 0px 0px 0px;
-    padding-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    box-sizing: border-box;
-  }
-  
-  .checkbox {
-    width: 20px;
-    height: 20px;
-    border-radius: 50px 0px 0px 0px;
-    padding: 30px;
-    
-  } 
+  width: 513px;
+  height: 65px;
+  top: 34px;
+  border-radius: 50px 0px 0px 0px;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px 0px 0px 0px;
+  padding: 30px;
+
+}
 
 
-  .y{
-    padding: 15px;
-  }
+.y {
+  padding: 15px;
+}
+
+.Terms span,
+.logIn span {
+  color: var(--green);
+  cursor: pointer;
+}
+
+.Terms span:hover {
+  text-decoration: underline;
+}
+
+.logIn span:hover {
+  text-decoration: underline;
+}
+
+
+
+.su-btn {
+  /* width: Hug (162.75px)px;
+  height: Hug (55.75px)px; */
+  padding: 11px 32px 11px 32px;
+  /* gap: 3px; */
+  border-radius: 50px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.su-btn p {
+  background-color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.su-btn button {
   
-.Terms span {
-    color: #007BFF;
-    cursor: pointer;
-  }
-  
-  .Terms span:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: var(--green);
+  border: none;
+  color: white;
+  width: Hug (102.75px)px;
+  height: auto;
+  padding: 11px 32px 11px 32px;
+
+  border-radius: 50px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+}
+
+.su-btn img {
+  background-color: var(--green);
+  width: 40px;
+  height: auto;
+
+}
+
+.logIn{
+  align-items: center;
+  /* text-align: center; */
+  margin-left: 49px;
+}
