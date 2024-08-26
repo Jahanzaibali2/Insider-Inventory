@@ -7,7 +7,7 @@ export default function Signup() {
 
     <div>
 
-      
+
       <div className='y'>
         <label htmlFor="Name1">First Name</label>
         <input type="text" className='txt' />
@@ -29,7 +29,7 @@ export default function Signup() {
       </div>
 
 
-      <div className='CheckBoxes'>
+      <div className='CheckBoxes1'>
 
         <div className="x">
           <input type="checkbox" className='checkBox' />
@@ -40,7 +40,9 @@ export default function Signup() {
           <input type="checkbox" className='checkBox' />
           <label htmlFor="Name1">HomeBuyer</label>
         </div>
+      </div>
 
+      <div className='CheckBoxes2'>
         <div className='x'>
           <input type="checkbox" className='checkBox' />
           <label htmlFor="Name1">Agent</label>
@@ -75,11 +77,11 @@ export default function Signup() {
 
       <div className="su-btn">
         <button>
-          <p>Sign Up 
-          <img src={Arrow} alt="x" /></p>
+          <p>Sign Up
+            <img src={Arrow} alt="x" /></p>
         </button>
       </div>
-      
+
       <div className="logIn">
         <label htmlFor="text"> Already have an account?
           <span> Log in</span>

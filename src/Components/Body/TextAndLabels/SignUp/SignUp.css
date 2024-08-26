@@ -18,6 +18,7 @@ input[type="text"] {
 }
 
 
+
 .y {
   padding: 15px;
 }
@@ -82,4 +83,15 @@ input[type="text"] {
   align-items: center;
   /* text-align: center; */
   margin-left: 49px;
+}
+
+.CheckBoxes1 ,  .CheckBoxes2{
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: start; */
+  gap: 100px;
+  padding: 10px;
+} 
+.CheckBoxes2{
+gap: 115px;
 }
