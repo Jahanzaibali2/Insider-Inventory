@@ -1,0 +1,18 @@
+.nb-list li {
+
+    background-color: var(--Dgreen);
+    color: white;
+}
+
+.nb-list ul {
+
+    background-color: var(--Dgreen);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    width: Fixed (1, 440px)px;
+    height: Hug (115.75px)px;
+    padding: 30px 80px 30px 80px;
+    gap: 20px;
+}

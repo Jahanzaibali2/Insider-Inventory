@@ -9,24 +9,6 @@
     gap: 10px;
 }
 
-.nb-list li {
-
-    background-color: var(--Dgreen);
-    color: white;
-}
-
-.nb-list ul {
-
-    background-color: var(--Dgreen);
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    list-style-type: none;
-    width: Fixed (1, 440px)px;
-    height: Hug (115.75px)px;
-    padding: 30px 80px 30px 80px;
-    gap: 20px;
-}
 
 .nb-heading p {
     color: white;
@@ -42,34 +24,3 @@
     background-color: var(--Dgreen);
 }
 
-.nb-btn {
-    width: Hug (206.75px)px;
-    height: Hug (55.75px)px;
-    padding: 11px 32px 11px 32px;
-    gap: 3px;
-    border-radius: 50px;
-    background-color: var(--green);
-}
-
-.nb-btn p {
-    background-color: var(--green);
-}
-
-.nb-btn button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--green);
-    border: none;
-    color: white;
-    width: 106px;
-    height: 22px;
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21.6px;
-}
-
-.nb-btn img {
-    background-color: var(--green);
-}

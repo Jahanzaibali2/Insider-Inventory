@@ -46,3 +46,9 @@
     background-color: var(--Dgreen);
     color: white;
 }
+
+.rights p{
+    
+    background-color: var(--Dgreen);
+    color: rgb(255, 255, 255);
+}
