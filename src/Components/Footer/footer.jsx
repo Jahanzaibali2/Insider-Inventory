@@ -2,6 +2,12 @@ import React from 'react'
 import FooterLogo from "../../assets/Footerlogo.png"
 import "./footer.css"
 import List from '../General/List'
+import Heading from '../General/Heading'
+import Facebook from "../../assets/Facebook.png"
+import X from "../../assets/X.png"
+import LinkedIn from "../../assets/LinkedIn.png"
+import Insta from "../../assets/Insta.png"
+
 
 export default function Footer() {
     return (
@@ -19,21 +25,32 @@ function WholeFooter() {
 
                 <div className="Logo">
                     <img src={FooterLogo} alt="x" />
+                    <Heading/>
+                    <h3>Your Gateway to Real Estate Excellence</h3>
                 </div>
+
+
+
                 <div className="listAndSocials">
                     <List />
+
                     <div className="ft-socials">
-                        <button>whatsapp</button>
-                        <button>Twitter</button>
-                        <button>LinkedIn</button>
-                        <button>Instagram</button>
+                    
+                        <a href="https://www.facebook.com"><img src={Facebook} alt="x" /></a>
+                        <a href="https://www.facebook.com"><img src={X} alt="x" /></a>
+                        <a href="https://www.facebook.com"><img src={LinkedIn} alt="x" /></a>
+                        <a href="https://www.facebook.com"><img src={Insta} alt="x" /></a>
+                        
                     </div>
+
                 </div>
-                    <hr />
+
+            </div>
+
                 <div className="rights">
+                <hr />
                     <p>All right are reserved For insider's Inventory</p>
                 </div>
-            </div>
 
         </div>
     )

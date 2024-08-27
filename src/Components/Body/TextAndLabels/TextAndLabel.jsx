@@ -5,7 +5,7 @@ import Signup from './SignUp/Signup'
 
 export default function TextAndLabel() {
   return (
-    <div>
+    <div className='wholeBody'>
       <TextField />
     </div>
   )

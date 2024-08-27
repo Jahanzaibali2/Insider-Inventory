@@ -13,3 +13,5 @@ export default function App() {
     </>
     )
 }
+
+// https://www.figma.com/design/bgMpJdtg9oJkivkzZNbWWb/Insider's-Inventory-(Copy)?node-id=518-5771&t=g26aHhINPkcSHbNE-0 

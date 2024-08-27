@@ -1,3 +1,13 @@
+.wholeDiv{
+  width: auto;
+  height:  auto;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+
 .legendaryDiv {
   width: 1440px;
   height: 100%;
