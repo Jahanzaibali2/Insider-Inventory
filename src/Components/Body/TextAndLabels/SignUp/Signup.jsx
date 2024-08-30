@@ -2,6 +2,7 @@ import React from 'react'
 import "./SignUp.css"
 import Arrow from "../../../../assets/gg_arrow-down.png"
 import Textfield from '../../../General/Textfield'
+import Checkbox from '../../../General/Checkbox'
 
 export default function Signup() {
   return (
@@ -20,29 +21,13 @@ export default function Signup() {
 
 
       <div className='CheckBoxes1'>
-
-        <div className="x">
-          <input type="checkbox" className='checkBox' />
-          <label htmlFor="Name1">Investor</label>
-        </div>
-
-        <div className='x'>
-          <input type="checkbox" className='checkBox' />
-          <label htmlFor="Name1">HomeBuyer</label>
-        </div>
+      <Checkbox text="Investor"/>
+      <Checkbox text="Home Buyer"/>
       </div>
 
       <div className='CheckBoxes2'>
-        <div className='x'>
-          <input type="checkbox" className='checkBox' />
-          <label htmlFor="Name1">Agent</label>
-        </div>
-
-        <div className='x'>
-          <input type="checkbox" className='checkBox' />
-          <label htmlFor="Name1">Fund/Riet investment Buyer</label>
-        </div>
-
+      <Checkbox text="Agent"/>
+      <Checkbox text="Fund/REIT Investment Buyer"/>
 
       </div>
 
@@ -62,8 +47,7 @@ export default function Signup() {
 
       <div className="su-btn">
         <button>
-          <p>Sign Up
-            <img src={Arrow} alt="x" /></p>
+          <p>Sign Up<img src={Arrow} alt="x" /></p>
         </button>
       </div>
 

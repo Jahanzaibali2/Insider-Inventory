@@ -1,0 +1,12 @@
+.CheckBoxes1,
+.CheckBoxes2 {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: start; */
+  gap: 100px;
+  padding: 10px;
+}
+
+.CheckBoxes2 {
+  gap: 115px;
+}
