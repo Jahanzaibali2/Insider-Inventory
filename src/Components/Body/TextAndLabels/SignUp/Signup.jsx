@@ -9,6 +9,9 @@ export default function Signup() {
 
     <div>
 
+      <div className="headingDiv">
+        <h1>Sign-Upto view a Available Inventory Or to list a Property</h1>
+      </div>
 
       <div className='y'>
         <Textfield text="First Name" />
@@ -16,7 +19,6 @@ export default function Signup() {
         <Textfield text="Email" />
         <Textfield text="Company Name" />
       </div>
-
 
       <div className='CheckBoxes1'>
         <Checkbox text="Investor" />

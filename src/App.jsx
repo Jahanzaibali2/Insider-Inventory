@@ -6,12 +6,14 @@ import Textfield from './Components/General/Textfield'
 import "./App.css"
 import { BrowserRouter } from 'react-router-dom'
 import AppRouter from './Config/AppRouter'
+import Login from './Components/Body/TextAndLabels/LogIn/Login'
 
 export default function App() {
   return (
     <>
       {/* <AppRouter /> */}
       <Header />
+      {/* <Login/> */}
       <TextAndLabel />
       <Footer />
     </>

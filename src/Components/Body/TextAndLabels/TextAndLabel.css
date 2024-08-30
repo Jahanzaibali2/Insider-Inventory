@@ -48,15 +48,3 @@
 
 }
 
-.headingDiv {
-  width: 1600px;
-  height: 100px;
-  text-align: left;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.headingDiv h1 {
-  width: 550px;
-  text-align: center;
-}
