@@ -1,13 +1,3 @@
-input[type="text"] {
-  width: 513px;
-  height: 65px;
-  top: 34px;
-  border-radius: 50px 0px 0px 0px;
-  padding-top: 10px;
-  border: 1px solid #ccc;
-  border-radius: 25px;
-  box-sizing: border-box;
-}
 
 .checkbox {
   width: 20px;
@@ -20,7 +10,11 @@ input[type="text"] {
 
 
 .y {
-  padding: 15px;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
 }
 
 .Terms span,
@@ -29,15 +23,9 @@ input[type="text"] {
   cursor: pointer;
 }
 
-.Terms span:hover {
+.Terms span:hover, .logIn span:hover {
   text-decoration: underline;
 }
-
-.logIn span:hover {
-  text-decoration: underline;
-}
-
-
 
 .su-btn {
   /* width: Hug (162.75px)px;
@@ -94,4 +82,11 @@ input[type="text"] {
 } 
 .CheckBoxes2{
 gap: 115px;
+}
+
+.Terms{
+ 
+ display: flex;
+  gap: 10px;
+  padding-top: 10px;
 }

@@ -1,0 +1,22 @@
+.Textfield{
+    width: 513px;
+    height: 65px;
+    top: 34px;
+    border-radius: 50px 0px 0px 0px;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color:#EFF0F2;
+    
+
+}
+
+.TextfieldDiv{
+display: flex;
+/* justify-content: flex-start; */
+/* background-color: blueviolet; */
+/* align-items: center; */
+flex-direction: column;
+gap: 15px;
+}

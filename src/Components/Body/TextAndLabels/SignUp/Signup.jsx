@@ -1,6 +1,7 @@
 import React from 'react'
 import "./SignUp.css"
 import Arrow from "../../../../assets/gg_arrow-down.png"
+import Textfield from '../../../General/Textfield'
 
 export default function Signup() {
   return (
@@ -9,23 +10,12 @@ export default function Signup() {
 
 
       <div className='y'>
-        <label htmlFor="Name1">First Name</label>
-        <input type="text" className='txt' />
-      </div>
-
-      <div className='y'>
-        <label htmlFor="Name1">Last Name</label>
-        <input type="text" className='txt' />
-      </div>
-
-      <div className='y'>
-        <label htmlFor="Name1">Email</label>
-        <input type="text" className='txt' />
-      </div>
-
-      <div className='y'>
-        <label htmlFor="Name1">Company Name (Optional)</label>
-        <input type="text" className='txt' />
+     <Textfield text="First Name"/>
+      <Textfield text="last Name"/>
+      <Textfield text="Email"/>
+      <Textfield text="Company Name"/>
+      
+      
       </div>
 
 
@@ -57,18 +47,13 @@ export default function Signup() {
       </div>
 
       <div className='y'>
-        <label htmlFor="Name1">Phone</label>
-        <input type="text" className='txt' />
-      </div>
-
-      <div className='y'>
-        <label htmlFor="Name1">Pasword</label>
-        <input type="text" className='txt' />
+      <Textfield text="Phone Number"/>
+      <Textfield text="Password"/>
       </div>
 
 
 
-      <div className='x'>
+      <div className='Terms'>
         <input type="checkbox" className='checkBox' />
         <label htmlFor="text"> I have read and Accepted your
           <span> terms and conditions</span>

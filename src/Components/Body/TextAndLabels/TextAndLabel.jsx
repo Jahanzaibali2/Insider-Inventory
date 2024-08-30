@@ -6,11 +6,11 @@ import Signup from './SignUp/Signup'
 export default function TextAndLabel() {
   return (
     <div className='wholeBody'>
-      <TextField />
+      <Body />
     </div>
   )
 }
-function TextField() {
+function Body() {
   return (
     <>
       <div className="legendaryDiv">

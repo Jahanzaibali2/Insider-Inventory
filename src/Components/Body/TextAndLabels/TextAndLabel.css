@@ -1,11 +1,12 @@
-.wholeDiv{
-  width: auto;
-  height:  auto;
-}
-*{
+* {
   margin: 0%;
   padding: 0%;
 
+}
+
+.wholeDiv {
+  width: 1440px;
+  height: 100%;
 }
 
 .legendaryDiv {
@@ -34,8 +35,6 @@
 .signUp {
   width: Hug (513px)px;
   height: Hug (937.75px)px;
-  /* gap: 38px; */
-  
   margin-left: 150px;
 
 }
@@ -57,7 +56,7 @@
   justify-content: flex-end;
 }
 
-.headingDiv h1{
+.headingDiv h1 {
   width: 550px;
   text-align: center;
 }
