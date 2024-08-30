@@ -5,7 +5,7 @@ export default function AppRouter() {
   return (
     <BrowserRouter>
     <Routes>
-<Route path='/'    element={<Home/>} />
+<Route path='/'  element={<Home/>} />
 <Route path='/SignIn' element={<SignIn/>} />
 <Route path='/SignUp' element={<SignUp/>} />
 

@@ -16,8 +16,6 @@ function Body() {
       <div className="legendaryDiv">
 
       
-        <div className="b-div">
-
 
           <div className="imageDiv">
             <img src={House} alt="x" />
@@ -29,7 +27,7 @@ function Body() {
 
 
         </div>
-      </div>
+        
     </>
   )
 }
