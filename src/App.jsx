@@ -10,10 +10,10 @@ import AppRouter from './Config/AppRouter'
 export default function App() {
   return (
     <>
-      <AppRouter />
-      {/* <Header />
+      {/* <AppRouter /> */}
+      <Header />
       <TextAndLabel />
-      <Footer /> */}
+      <Footer />
     </>
   )
 }

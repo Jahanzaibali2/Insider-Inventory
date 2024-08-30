@@ -7,6 +7,7 @@ import Facebook from "../../assets/Facebook.png"
 import X from "../../assets/X.png"
 import LinkedIn from "../../assets/LinkedIn.png"
 import Insta from "../../assets/Insta.png"
+import Button from '../General/Button'
 
 
 export default function Footer() {
@@ -25,32 +26,32 @@ function WholeFooter() {
 
                 <div className="Logo">
                     <img src={FooterLogo} alt="x" />
-                    <Heading/>
+                    <Heading />
                     <h3>Your Gateway to Real Estate Excellence</h3>
                 </div>
-
+                {/* <Button text="Trying" /> */}
 
 
                 <div className="listAndSocials">
                     <List />
 
                     <div className="ft-socials">
-                    
+
                         <a href="https://www.facebook.com"><img src={Facebook} alt="x" /></a>
                         <a href="https://www.facebook.com"><img src={X} alt="x" /></a>
                         <a href="https://www.facebook.com"><img src={LinkedIn} alt="x" /></a>
                         <a href="https://www.facebook.com"><img src={Insta} alt="x" /></a>
-                        
+
                     </div>
 
                 </div>
 
             </div>
 
-                <div className="rights">
+            <div className="rights">
                 <hr />
-                    <p>All right are reserved For insider's Inventory</p>
-                </div>
+                <p>All right are reserved For insider's Inventory</p>
+            </div>
 
         </div>
     )

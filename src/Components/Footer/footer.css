@@ -2,34 +2,34 @@
     width: 100%;
     height: 371px;
     top: 297.87px;
-    
+
     background-color: var(--Dgreen);
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
     gap: 0px;
     opacity: 0px;
     padding: 0%;
-    
+
 }
 
-.ft-div{
-    
+.ft-div {
+
     background-color: var(--Dgreen);
     width: 100%;
     height: 371px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5% ;
+    padding: 0px 5%;
 
 
 }
 
-.Logo{
+.Logo {
     display: flex;
     gap: 30px;
     flex-direction: column;
@@ -49,7 +49,7 @@
 
 }
 
-.ft-socials img{
+.ft-socials img {
 
     background-color: var(--Dgreen);
     color: white;
@@ -64,15 +64,23 @@
     padding: 30px;
 }
 
-hr{
+hr {
     width: 800px;
+}
+
+a {
+    background-color: var(--Dgreen);
 }
 
 .Logo img {
     width: 220px;
     height: auto;
+    padding-top: 20px;
+
+    background-color: var(--Dgreen);
 }
+
 .Logo h3 {
-  background-color: var(--Dgreen);
-  color: white;
+    background-color: var(--Dgreen);
+    color: white;
 }
