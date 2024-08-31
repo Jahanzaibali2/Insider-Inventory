@@ -3,6 +3,7 @@ import "./SignUp.css"
 import Arrow from "../../../../assets/gg_arrow-down.png"
 import Textfield from '../../../General/Textfield'
 import Checkbox from '../../../General/Checkbox'
+import Button from '../../../General/Button'
 
 export default function Signup() {
   return (
@@ -44,11 +45,7 @@ export default function Signup() {
           <span>terms and conditions</span>
         </p>
 
-        <div className="su-btn">
-          <button>
-            <p>Sign Up/Log in<img src={Arrow} alt="x" /></p>
-          </button>
-        </div>
+        <Button text="Sign Up"/>
 
         <div className="logIn">
           <label htmlFor="text"> Already have an account?

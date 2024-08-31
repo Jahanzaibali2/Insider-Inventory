@@ -1,7 +1,4 @@
 
-
-
-
 .y {
   padding-top: 45px;
   display: flex;
@@ -16,49 +13,8 @@
   cursor: pointer;
 }
 
-.Terms span:hover,
-.logIn span:hover {
+.Terms span:hover{
   text-decoration: underline;
-}
-
-.su-btn {
-  /* width: Hug (162.75px)px;
-  height: Hug (55.75px)px; */
-  padding: 11px 32px 11px 32px;
-  /* gap: 3px; */
-  border-radius: 50px 0px 0px 0px;
-  opacity: 0px;
-
-}
-
-.su-btn p {
-  background-color: var(--green);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.su-btn button {
-
-  background-color: var(--green);
-  border: none;
-  color: white;
-  width: Hug (102.75px)px;
-  height: auto;
-  padding: 11px 32px 11px 32px;
-
-  border-radius: 50px;
-  font-family: Lato;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21.6px;
-}
-
-.su-btn img {
-  background-color: var(--green);
-  width: 40px;
-  height: auto;
-
 }
 
 .logIn {
@@ -75,8 +31,8 @@
 
 .Terms {
   display: flex;
-  gap: 10px;
-  padding-top: 20px;
+  gap: 20px;
+  padding-top: 30px;
   flex-direction: column;
   align-items: center;
 }
