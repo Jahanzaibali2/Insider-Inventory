@@ -17,7 +17,7 @@ function NavBar() {
 
                 <Heading />
                 <List />
-                <Button text="Sign Up"/>
+                <Button text="Login/SignUp"/>
 
 
             </div>
