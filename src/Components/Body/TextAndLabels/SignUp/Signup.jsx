@@ -10,11 +10,11 @@ export default function Signup() {
 
     <div>
 
-      <div className="headingDiv">
+      <div className="headDiv">
         <h1>Sign-Upto view a Available Inventory Or to list a Property</h1>
       </div>
 
-      <div className='y'>
+      <div className='txtfield'>
         <Textfield text="First Name" />
         <Textfield text="Last Name" />
         <Textfield text="Email" />
@@ -31,14 +31,14 @@ export default function Signup() {
         <Checkbox text="Fund/REIT Investment Buyer" />
       </div>
 
-      <div className='y'>
+      <div className='txtfield'>
         <Textfield text="Phone Number" />
         <Textfield text="Password" />
       </div>
 
 
 
-      <div className='Terms'>
+      <div className='Term'>
 
         <p className="checkbox-container">
           <Checkbox text="I have read and Accepted your" />
@@ -47,7 +47,7 @@ export default function Signup() {
 
         <Button text="Sign Up"/>
 
-        <div className="logIn">
+        <div className="login">
           <label htmlFor="text"> Already have an account?
             <span> Log in</span>
           </label>

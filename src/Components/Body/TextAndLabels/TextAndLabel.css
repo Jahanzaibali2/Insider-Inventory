@@ -25,32 +25,9 @@
 }
 
 
-/* .b-div {
-  width: Hug (1, 282px)px;
-  height: Hug (1, 137.75px)px;
-  top: 82px;
-  left: 74px;
-  gap: 110px;
-  opacity: 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-
-
 .signUp {
   width: Hug (513px)px;
   height: Hug (937.75px)px;
-  margin-left: 150px;
-
-}
-
-
-.b-div img {
-  width: 659px;
-  height: 883px;
-  gap: 150px;
   margin-left: 150px;
 
 }

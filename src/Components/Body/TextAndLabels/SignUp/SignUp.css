@@ -1,5 +1,5 @@
 
-.y {
+.txtfield {
   padding-top: 45px;
   display: flex;
   flex-direction: column;
@@ -7,29 +7,21 @@
 
 }
 
-.Terms span,
-.logIn span {
+.Term span {
   color: var(--green);
   cursor: pointer;
 }
 
-.Terms span:hover{
+.Term span:hover{
   text-decoration: underline;
 }
 
-.logIn {
+.login {
   align-items: center;
-  /* text-align: center; */
-  /* margin-left: 49px; */
 }
 
-.checkbox-container {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
 
-.Terms {
+.Term {
   display: flex;
   gap: 20px;
   padding-top: 30px;
@@ -37,7 +29,7 @@
   align-items: center;
 }
 
-.headingDiv {
+.headDiv {
   /* width: 1600px; */
   height: 100px;
   text-align: left;
@@ -45,8 +37,13 @@
   justify-content: flex-end;
 }
 
-.headingDiv h1 {
+.headDiv h1 {
   width: 550px;
   text-align: center;
   /* color: black; */
 }
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
