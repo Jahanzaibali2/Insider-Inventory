@@ -2,18 +2,14 @@
     width: 100%;
     height: 371px;
     top: 297.87px;
-
     background-color: var(--Dgreen);
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     gap: 0px;
     opacity: 0px;
     padding: 0%;
-
 }
 
 .ft-div {
