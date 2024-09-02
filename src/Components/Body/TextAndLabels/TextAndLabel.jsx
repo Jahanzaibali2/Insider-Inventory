@@ -2,6 +2,8 @@ import React from 'react'
 import "./TextAndLabel.css"
 import House from "../../../assets/House.png"
 import Signup from './SignUp/Signup'
+import Footer from '../../Footer/footer'
+import Header from '../../NavBar/Header'
 
 export default function TextAndLabel() {
   return (
@@ -13,6 +15,7 @@ export default function TextAndLabel() {
 function Body() {
   return (
     <>
+    <Header/>
       <div className="legendaryDiv">
 
           <div className="imageDiv">
@@ -25,7 +28,7 @@ function Body() {
 
 
         </div>
-
+<Footer/>
     </>
   )
 }

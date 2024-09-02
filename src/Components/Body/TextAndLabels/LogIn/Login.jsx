@@ -5,6 +5,8 @@ import Button from '../../../General/Button'
 import "./Login.css"
 import House from "../../../../assets/House.png"
 import { Link, useNavigate } from 'react-router-dom'
+import Header from '../../../NavBar/Header'
+import Footer from '../../../Footer/footer'
 
 export default function Login() {
     return (
@@ -16,7 +18,9 @@ export default function Login() {
 
 function LoginBody() {
     return (
+
         <>
+        <Header/>
             <div className="legendaryDiv">
 
                 <div className="imageDiv">
@@ -29,7 +33,7 @@ function LoginBody() {
 
 
             </div>
-
+<Footer/>
         </>
     )
 }
@@ -45,6 +49,7 @@ function FunLogin() {
     }
     return (
         <>
+        
             <div>
 
                 <div className="headingDiv">
