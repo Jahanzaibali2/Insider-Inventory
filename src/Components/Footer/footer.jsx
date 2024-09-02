@@ -30,8 +30,7 @@ function WholeFooter() {
                     <h3>Your Gateway to Real Estate Excellence</h3>
                 </div>
                 {/* <Button text="Trying" /> */}
-
-
+                
                 <div className="listAndSocials">
                     <List />
 
