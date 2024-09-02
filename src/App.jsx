@@ -11,11 +11,11 @@ import Login from './Components/Body/TextAndLabels/LogIn/Login'
 export default function App() {
   return (
     <>
-      {/* <AppRouter /> */}
-      <Header />
+      <AppRouter />
+      {/* <Header />
       {/* <Login/> */}
-      <TextAndLabel />
-      <Footer />
+      {/* <TextAndLabel />
+      <Footer /> */}
     </>
   )
 }

@@ -4,6 +4,7 @@ import Checkbox from '../../../General/Checkbox'
 import Button from '../../../General/Button'
 import "./Login.css"
 import House from "../../../../assets/House.png"
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Login() {
     return (
@@ -36,6 +37,12 @@ function LoginBody() {
 
 
 function FunLogin() {
+
+    const Navigator = useNavigate();
+
+    function HandleClick(){
+        Navigator("/")
+    }
     return (
         <>
             <div>
@@ -57,10 +64,11 @@ function FunLogin() {
 
 
                 <div className='Terms'>
-                    <Button text="Log In" />
+                    <Button text="Log In" 
+                    Click = {() => HandleClick()}/>
                     
                     <div className="logIn">
-                        <label htmlFor="text"> Don't have an account? <span>Sign in</span>
+                        <label htmlFor="text"> Don't have an account? <Link to ="/"><span>Sign in</span></Link>
                         </label>
                     </div>
 

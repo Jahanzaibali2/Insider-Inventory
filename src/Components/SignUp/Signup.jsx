@@ -1,10 +1,9 @@
 import React from 'react'
 import "./SignUp.css"
 import Arrow from "../../../../assets/gg_arrow-down.png"
-import Textfield from '../../../General/Textfield'
-import Checkbox from '../../../General/Checkbox'
-import Button from '../../../General/Button'
-import { Link } from 'react-router-dom'
+import Textfield from '../General/Textfield'
+import Checkbox from '../General/Checkbox'
+import Button from '../General/Button'
 
 export default function Signup() {
   return (
@@ -46,11 +45,11 @@ export default function Signup() {
           <span>terms and conditions</span>
         </p>
 
-        <Button text="Sign Up" />
+        <Button text="Sign Up"/>
 
         <div className="login">
           <label htmlFor="text"> Already have an account?
-            <Link to="/Login"><span>Login</span></Link>
+            <span> Log in</span>
           </label>
         </div>
 
