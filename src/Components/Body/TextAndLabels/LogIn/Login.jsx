@@ -31,7 +31,6 @@ function LoginBody() {
                     <FunLogin />
                 </div>
 
-
             </div>
 <Footer/>
         </>

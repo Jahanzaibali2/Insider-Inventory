@@ -7,15 +7,13 @@ import "./App.css"
 import { BrowserRouter } from 'react-router-dom'
 import AppRouter from './Config/AppRouter'
 import Login from './Components/Body/TextAndLabels/LogIn/Login'
+import Card from './Components/General/Card'
 
 export default function App() {
   return (
     <>
-      <AppRouter />
-      {/* <Header />
-      {/* <Login/> */}
-      {/* <TextAndLabel />
-      <Footer /> */}
+      {/* <AppRouter /> */}
+      <Card/>
     </>
   )
 }
