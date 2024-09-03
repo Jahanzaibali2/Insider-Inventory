@@ -1,0 +1,72 @@
+.Grids h1 {
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61.44px;
+    text-align: left;
+
+}
+
+.Grids h1 span {
+
+    color: var(--green);
+    font-family: Lora;
+}
+
+.Title-Page {
+
+    background-color: var(--Dgreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.TitlePage-Content {
+    background-color: var(--Dgreen);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    gap: 10px;
+    text-align: center;
+}
+
+.TitlePage-Content h1 {
+    background-color: var(--Dgreen);
+    font-family: Lora;
+    font-size: 74px;
+    font-weight: 600;
+    line-height: 94.72px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.TitlePage-Content span {
+    background-color: var(--Dgreen);
+    color: var(--green);
+    font-family: Lora;
+    line-height: 94.72px;
+
+}
+
+#pp {
+    background-color: var(--Dgreen);
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+
+}
+.button-div{
+    display: flex;
+    background-color: var(--Dgreen);
+    gap: 10px;
+    
+}
+/* .TitlePage-Content p { */
