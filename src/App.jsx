@@ -12,8 +12,8 @@ import Card from './Components/General/Card'
 export default function App() {
   return (
     <>
-      {/* <AppRouter /> */}
-      <Card/>
+      <AppRouter />
+      {/* <Card/> */}
     </>
   )
 }

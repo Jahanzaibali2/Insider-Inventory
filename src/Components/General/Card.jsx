@@ -3,24 +3,19 @@ import img from "../../assets/pic1.png"
 import "./Card.css"
 import Button from './Button'
 
-export default function Card() {
-    return (
-        <div>
-            <Cards />
-        </div>
-    )
-}
 
-function Cards() {
+export default function Cards({status,image,information = {
+    price:0 , 
+    percentage:0}}) {
     return (
 
         <div className="card">
 
 
-            <div className="card-img" style={{ backgroundImage: `url(${img})` }}>
+            <div className="card-img" style={{ backgroundImage: `url(${image})` }}>
 
                 <span className="card-status">
-                    tenant occupied
+                    {status}
                 </span>
 
             </div>
@@ -28,13 +23,13 @@ function Cards() {
             <div className="card-distribution">
 
                 <div className='card-section'>
-                    <div className="card-text">intial investment</div>
-                    <div className="card-value">$450.517</div>
+                    <div className="card-text">Initial Investment</div>
+                    <div className="card-value">{information.price}</div>
                 </div>
-            
+            <hr />
                 <div className='card-section'>
-                    <div className="card-text">Potential Roi</div>
-                    <div className="card-value">37%</div>
+                    <div className="card-text">Potential ROI</div>
+                    <div className="card-value">{information.percentage}</div>
                 </div>
 
             </div>
@@ -43,9 +38,9 @@ function Cards() {
 
                 <h3>Luxury Apartment</h3>
 
-                <h4>450,000$</h4>
+                <h4>{information.price}</h4>
 
-                <p>3 bedroom|1 bathroom|957sq. ft</p>
+                <p>3 Bedroom|1 Bathroom|957sq. ft</p>
 
                 <h5>X Australia</h5>
 
@@ -61,3 +56,6 @@ function Cards() {
 
     )
 }
+{/* <Cards status={"Vacant"} image={img} information={{price:"450.000$",
+    percentage:"10%"
+}}/> */}
