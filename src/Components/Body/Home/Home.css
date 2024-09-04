@@ -1,8 +1,8 @@
-.Grids {
-    padding: 0px 0px 50px 0px;
+.Grids, .Round-Cards{
+    padding: 40px 0px 50px 0px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     justify-content: flex-start;
     align-items: center;
 }
