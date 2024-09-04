@@ -11,6 +11,7 @@ import Button from '../../General/Button';
 import Footer from '../../Footer/footer'
 import Header from '../../NavBar/Header'
 import "./Home.css"
+import RoundCard from '../../General/RoundCard';
 
 
 export default function Home() {
@@ -101,24 +102,15 @@ function RoundGrids() {
         <>
             <Grid container spacing={12}>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Cards status={"Vacant"} image={img} information={{
-                        price: "450,000$",
-                        percentage: "10%"
-                    }} />
+                    <RoundCard />
                 </Grid>
 
                 <Grid xs={12} sm={6} md={4}>
-                    <Cards status={"Owner Occupied"} image={img1} information={{
-                        price: "490,330$",
-                        percentage: "30%"
-                    }} />
+                <RoundCard />
                 </Grid>
 
                 <Grid item xs={12}>
-                    <Cards status={"Tenant Occupied"} image={img2} information={{
-                        price: "420,013$",
-                        percentage: "20%"
-                    }} />
+                <RoundCard />
                 </Grid>
 
             </Grid>
