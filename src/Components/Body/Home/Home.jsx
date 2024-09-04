@@ -12,6 +12,9 @@ import Footer from '../../Footer/footer'
 import Header from '../../NavBar/Header'
 import "./Home.css"
 import RoundCard from '../../General/RoundCard';
+import pic from "../../../assets/r5.png"
+import pic22 from "../../../assets/r3.png"
+import pic1 from "../../../assets/pic4.png"
 
 
 export default function Home() {
@@ -102,15 +105,15 @@ function RoundGrids() {
         <>
             <Grid container spacing={12}>
                 <Grid item xs={12} sm={6} md={4}>
-                    <RoundCard />
+                    <RoundCard heading= "Buy & Hold Properties" img={pic1} text="Secure your future with our Buy & Hold properties, offering stability and long-term growth potential."/>
                 </Grid>
 
                 <Grid xs={12} sm={6} md={4}>
-                <RoundCard />
+                <RoundCard  heading= "Retail - Owner Occupant" img={pic22} text="Tailored Retail Spaces for Owner-Occupied Success in Prime Locations."/>
                 </Grid>
 
                 <Grid item xs={12}>
-                <RoundCard />
+                <RoundCard  heading= "Flip Opportunities" img={pic} text="Seize Profit Potential: Explore High-Yield Flip Opportunities with Insider's Inventory." />
                 </Grid>
 
             </Grid>

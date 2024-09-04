@@ -1,13 +1,16 @@
 import React from 'react'
 import "./RoundCard.css"
-import pic from "../../assets/r5.png"
-import pic2 from "../../assets/pic4.png"
 
-export default function RoundCard() {
+export default function RoundCard({ heading, img, text }) {
     return (
         <>
             <div className='Round-card'>
-                <img src={pic} alt="" />
+                <img src={img} alt="" />
+                <div className="text-div">
+                    <h2>{heading}</h2>
+                    <p>{text}</p>
+
+                </div>
 
             </div>
 

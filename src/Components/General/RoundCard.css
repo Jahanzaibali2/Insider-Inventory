@@ -1,5 +1,4 @@
 .Round-card{
-background-color: green;
 width: 405px;
 height: 504.86px;
 gap: 30px;
@@ -8,11 +7,37 @@ opacity: 0px;
 }
 
 .Round-card img{
-    /* position: relative; */
     width: 100%;
-    /* border-radius: 10px; */
-    /* height: 300px; */
     background-position: center;
     background-repeat: none;
-    background-size: cover;
+}
+
+.text-div{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 13px;
+    
+}
+
+.text-div h2{
+    font-family: Lora;
+font-size: 22px;
+font-weight: 500;
+line-height: 28.16px;
+text-align: center;
+
+}
+
+
+.text-div p{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+text-align: center;
+
 }
