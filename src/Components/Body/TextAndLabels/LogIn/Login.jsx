@@ -46,6 +46,8 @@ function FunLogin() {
     function HandleClick(){
         Navigator("/")
     }
+
+
     return (
         <>
         
@@ -72,7 +74,7 @@ function FunLogin() {
                     Click = {() => HandleClick()}/>
                     
                     <div className="logIn">
-                        <label htmlFor="text"> Don't have an account? <Link to ="/"><span>Sign in</span></Link>
+                        <label htmlFor="text"> Don't have an account? <Link to ="/SignUp"><span>Sign in</span></Link>
                         </label>
                     </div>
 

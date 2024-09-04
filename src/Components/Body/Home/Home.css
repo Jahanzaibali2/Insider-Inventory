@@ -1,4 +1,22 @@
-.Grids h1 {
+.Grids {
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Grids-Text {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* margin: 10px 90px 10px 0px; */
+    gap: 900px;
+}
+
+.Grids h1,
+.Card-Text h1 {
     font-family: Lora;
     font-size: 48px;
     font-weight: 700;
@@ -7,11 +25,16 @@
 
 }
 
-.Grids h1 span {
+.Grids h1 span,
+.Card-Text h1 span {
 
     color: var(--green);
     font-family: Lora;
 }
+
+
+
+
 
 .Title-Page {
 
@@ -19,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 60px 0px 110px 0px;
 }
 
 .TitlePage-Content {
@@ -29,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     width: 800px;
-    gap: 10px;
+    gap: 5px;
     text-align: center;
 }
 
@@ -60,13 +83,16 @@
     font-weight: 500;
     line-height: 24px;
     text-align: center;
+    padding: 30px 55px;
 
 
 }
-.button-div{
+
+.button-div {
     display: flex;
     background-color: var(--Dgreen);
     gap: 10px;
-    
+
 }
+
 /* .TitlePage-Content p { */
