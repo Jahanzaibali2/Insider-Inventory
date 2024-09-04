@@ -12,9 +12,12 @@ import Footer from '../../Footer/footer'
 import Header from '../../NavBar/Header'
 import "./Home.css"
 import RoundCard from '../../General/RoundCard';
+import ClientReviews from '../../General/Reviews';
 import pic from "../../../assets/r5.png"
 import pic22 from "../../../assets/r3.png"
 import pic1 from "../../../assets/pic4.png"
+import pro1 from "../../../assets/Profile1.png"
+import pro2 from "../../../assets/pro2.png"
 
 
 export default function Home() {
@@ -56,6 +59,13 @@ function HomePage() {
                         <h1> Off-Market <span>Property Types</span> </h1>
                     </div>
                     <RoundGrids />
+                </div>
+
+                <div className="Round-Cards">
+                    <div className="Card-Text">
+                        <h1> What Our <span>Client Say</span> </h1>
+                    </div>
+                    <Review />
                 </div>
 
             </div>
@@ -105,15 +115,38 @@ function RoundGrids() {
         <>
             <Grid container spacing={12}>
                 <Grid item xs={12} sm={6} md={4}>
-                    <RoundCard heading= "Buy & Hold Properties" img={pic1} text="Secure your future with our Buy & Hold properties, offering stability and long-term growth potential."/>
+                    <RoundCard heading="Buy & Hold Properties" img={pic1} text="Secure your future with our Buy & Hold properties, offering stability and long-term growth potential." />
                 </Grid>
 
                 <Grid xs={12} sm={6} md={4}>
-                <RoundCard  heading= "Retail - Owner Occupant" img={pic22} text="Tailored Retail Spaces for Owner-Occupied Success in Prime Locations."/>
+                    <RoundCard heading="Retail - Owner Occupant" img={pic22} text="Tailored Retail Spaces for Owner-Occupied Success in Prime Locations." />
                 </Grid>
 
                 <Grid item xs={12}>
-                <RoundCard  heading= "Flip Opportunities" img={pic} text="Seize Profit Potential: Explore High-Yield Flip Opportunities with Insider's Inventory." />
+                    <RoundCard heading="Flip Opportunities" img={pic} text="Seize Profit Potential: Explore High-Yield Flip Opportunities with Insider's Inventory." />
+                </Grid>
+
+            </Grid>
+
+        </>
+    )
+}
+
+
+function Review() {
+    return (
+        <>
+            <Grid container spacing={10}>
+                <Grid item xs={12} sm={6} md={4}>
+                    <ClientReviews heading="John Doe" text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="CEO at Ferrari"/>
+                </Grid>
+
+                <Grid xs={12} sm={6} md={4}>
+                    <ClientReviews heading="Debra" img={pro1} text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="Web designer Biffco Enterprises Ltd."/>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <ClientReviews heading="Max" img={pro2} text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="Dog Trainer Absergo Ltd."/>
                 </Grid>
 
             </Grid>
