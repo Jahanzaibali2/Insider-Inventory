@@ -8,9 +8,7 @@ import Login from './Pages/Login/Login.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App />  */}
-    <SignIn/>
-    {/* <HomePage /> */}
-    {/* <Login/> */}
+    <App /> 
+    
   </StrictMode>,
 )

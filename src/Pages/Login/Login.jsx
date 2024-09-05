@@ -7,10 +7,10 @@ import Checkbox from '../../Components/Checkbox/Checkbox';
 import Button from '../../Components/Button/Button';
 import { useNavigate } from 'react-router-dom';
 import House from "../../assets/House.png"
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
-export default function Login() {
+export default function LoginPage() {
   return (
 
     <>
@@ -35,10 +35,10 @@ export default function Login() {
 
 function LoginForm() {
 
-  // const Navigator = useNavigate();
+  const Navigator = useNavigate();
 
   function HandleClick() {
-    // Navigator("/")
+    Navigator("/")
   }
 
 
@@ -70,7 +70,7 @@ function LoginForm() {
 
           <div className="logIn">
             <label htmlFor="text"> Don't have an account? 
-              {/* <Link to="/SignUp"><span>Sign in</span></Link> */}
+              <Link to="/SignUp"><span>Sign in</span></Link>
             </label>
           </div>
 
