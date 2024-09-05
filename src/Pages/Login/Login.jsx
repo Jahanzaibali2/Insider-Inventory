@@ -18,7 +18,7 @@ export default function Login() {
         </div>
 
         <div className="signUp">
-          <FunLogin />
+          <LoginForm />
         </div>
 
       </div>
@@ -29,12 +29,12 @@ export default function Login() {
 
 
 
-function FunLogin() {
+function LoginForm() {
 
-  const Navigator = useNavigate();
+  // const Navigator = useNavigate();
 
   function HandleClick() {
-    Navigator("/")
+    // Navigator("/")
   }
 
 
@@ -61,7 +61,8 @@ function FunLogin() {
 
         <div className='Terms'>
           <Button text="Log In"
-            Click={() => HandleClick()} />
+            Click={() => HandleClick()}
+             />
 
           <div className="logIn">
             <label htmlFor="text"> Don't have an account? <Link to="/SignUp"><span>Sign in</span></Link>

@@ -1,11 +1,10 @@
 import React from 'react'
-import "./SignUp.css"
-import Arrow from "../../../../assets/gg_arrow-down.png"
-import Textfield from '../General/Textfield'
-import Checkbox from '../General/Checkbox'
-import Button from '../General/Button'
+import "./SignupForm.css"
+import Textfield from '../TextFeild/Textfield'
+import Checkbox from '../Checkbox/Checkbox'
+import Button from '../Button/Button'
 
-export default function Signup() {
+export default function SignupForm() {
   return (
 
     <div>
@@ -45,7 +44,7 @@ export default function Signup() {
           <span>terms and conditions</span>
         </p>
 
-        <Button text="Sign Up"/>
+        <Button text="Sign Up" />
 
         <div className="login">
           <label htmlFor="text"> Already have an account?

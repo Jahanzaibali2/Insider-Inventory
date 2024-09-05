@@ -1,24 +1,20 @@
 import React from 'react'
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid2';
-import Cards from '../../General/Card';
-import img from '../../../assets/pic1.png'
-import img1 from '../../../assets/pic2.png'
-import img2 from '../../../assets/pic3.png'
-import Button from '../../General/Button';
-import Footer from '../../Footer/footer'
-import Header from '../../NavBar/Header'
-import "./Home.css"
-import RoundCard from '../../General/RoundCard';
-import ClientReviews from '../../General/Reviews';
-import pic from "../../../assets/r5.png"
-import pic22 from "../../../assets/r3.png"
-import pic1 from "../../../assets/pic4.png"
-import pro1 from "../../../assets/Profile1.png"
-import pro2 from "../../../assets/pro2.png"
-
+import img from '../../assets/pic1.png'
+import img1 from '../../assets/pic2.png'
+import img2 from '../../assets/pic3.png'
+import pic from "../../assets/r5.png"
+import pic22 from "../../assets/r3.png"
+import pic1 from "../../assets/pic4.png"
+import pro1 from "../../assets/Profile1.png"
+import pro2 from "../../assets/pro2.png"
+import Cards from '../../Components/Card/Card';
+import Button from '../../Components/Button/Button';
+import Footer from '../../Components/Footer/footer'
+import Header from '../../Components/Header/Header'
+import RoundCard from '../../Components/RoundCard/RoundCard';
+import ClientReviews from '../../Components/Reviews/Reviews';
+import "./HomePage.css"
 
 export default function Home() {
     return (

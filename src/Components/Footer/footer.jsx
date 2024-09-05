@@ -1,24 +1,16 @@
 import React from 'react'
 import FooterLogo from "../../assets/Footerlogo.png"
 import "./footer.css"
-import List from '../General/List'
-import Heading from '../General/Heading'
+import List from '../List/List'
+import Heading from '../Heading/Heading'
 import Facebook from "../../assets/Facebook.png"
 import X from "../../assets/X.png"
 import LinkedIn from "../../assets/LinkedIn.png"
 import Insta from "../../assets/Insta.png"
-import Button from '../General/Button'
+
 
 
 export default function Footer() {
-    return (
-        <div>
-            <WholeFooter />
-        </div>
-    )
-}
-
-function WholeFooter() {
     return (
         <div className='ft-main'>
 
@@ -31,7 +23,7 @@ function WholeFooter() {
                 </div>
                 {/* <Button text="Trying" /> */}
                 
-                <div className="listAndSocials">
+                <div className="listAndSocials">    
                     <List />
 
                     <div className="ft-socials">

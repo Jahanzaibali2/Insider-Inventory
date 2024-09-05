@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
-import Signup from '../../Components/SignUp/Signup'
+import SignupForm from '../../Components/SignupForm/SignupForm'
 import Footer from '../../Components/Footer/footer'
-
+import House from '../../assets/House.png'
+import "./SignIn.css"
 
 
 export default function SignIn() {
@@ -16,7 +17,7 @@ export default function SignIn() {
                 </div>
 
                 <div className="signUp">
-                    <Signup />
+                    <SignupForm />
                 </div>
 
             </div>
