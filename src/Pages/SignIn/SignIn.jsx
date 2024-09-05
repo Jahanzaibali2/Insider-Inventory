@@ -6,7 +6,7 @@ import House from '../../assets/House.png'
 import "./SignIn.css"
 
 
-export default function SignIn() {
+export default function SignInPage() {
     return (
         <>
             <Header />

@@ -4,11 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import SignIn from './Pages/SignIn/SignIn.jsx'
 import HomePage from './Pages/HomePage/HomePage'
+import Login from './Pages/Login/Login.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App />  */}
-    {/* <SignIn/> */}
-    <HomePage />
+    <App /> 
+    
   </StrictMode>,
 )

@@ -7,10 +7,10 @@ import { useNavigate } from 'react-router-dom'
 
 
 export default function Header() {
-    // const Navig = useNavigate();
+    const Navigator = useNavigate();
     
     function HandleClick() {
-        // Navig("/")
+        Navigator("/Login")
     }
 
     return (
@@ -20,7 +20,7 @@ export default function Header() {
                 <Heading />
                 <List />
                 <Button text="Login/SignUp"
-                    Click={HandleClick()} />
+            Click={() => HandleClick()}/>
 
             </div>
         </>

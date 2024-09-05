@@ -3,6 +3,7 @@ import "./SignupForm.css"
 import Textfield from '../TextFeild/Textfield'
 import Checkbox from '../Checkbox/Checkbox'
 import Button from '../Button/Button'
+import { Link } from 'react-router-dom'
 
 export default function SignupForm() {
   return (
@@ -48,7 +49,7 @@ export default function SignupForm() {
 
         <div className="login">
           <label htmlFor="text"> Already have an account?
-            <span> Log in</span>
+          <Link to="/Login"><span>Log in</span></Link>
           </label>
         </div>
 

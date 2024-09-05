@@ -6,8 +6,8 @@ import AppRouter from './Config/AppRouter'
 export default function App() {
   return (
     <>
-      {/* <AppRouter /> */}
-      {/* <Card/> */}
+      <AppRouter />
+     
     </>
   )
 }

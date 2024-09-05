@@ -16,13 +16,8 @@ import RoundCard from '../../Components/RoundCard/RoundCard';
 import ClientReviews from '../../Components/Reviews/Reviews';
 import "./HomePage.css"
 
-export default function Home() {
-    return (
-        <HomePage />
-    )
-}
 
-function HomePage() {
+export default function HomePage() {
     return (
         <>
 
@@ -37,7 +32,15 @@ function HomePage() {
                         <p id='pp'>Unlock Exclusive Opportunities at Insider's Inventory, specializing in Buy & Hold, Owner-Occupied Retail, and Lucrative Flip Ventures. Discover your path to profitable real estate investments period.</p>
                         <div className="button-div">
                             <Button text={"Submit an Off-Market Property"} />
-                            <Button text={"View Your Off-Market Property"} />
+                            <Button text={"View Your Off-Market Property"}
+                                backgroundColor={{
+                                    background: "transparent",
+                                    border: "white 1px solid",
+                                    color: "var(--green)"
+
+                                }}
+
+                            />
                         </div>
                     </div>
                 </div>
@@ -134,15 +137,15 @@ function Review() {
         <>
             <Grid container spacing={10}>
                 <Grid item xs={12} sm={6} md={4}>
-                    <ClientReviews heading="John Doe" text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="CEO at Ferrari"/>
+                    <ClientReviews heading="John Doe" text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="CEO at Ferrari" />
                 </Grid>
 
                 <Grid xs={12} sm={6} md={4}>
-                    <ClientReviews heading="Debra" img={pro1} text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="Web designer Biffco Enterprises Ltd."/>
+                    <ClientReviews heading="Debra" img={pro1} text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="Web designer Biffco Enterprises Ltd." />
                 </Grid>
 
                 <Grid item xs={12}>
-                    <ClientReviews heading="Max" img={pro2} text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="Dog Trainer Absergo Ltd."/>
+                    <ClientReviews heading="Max" img={pro2} text="Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus AVestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus A" details="Dog Trainer Absergo Ltd." />
                 </Grid>
 
             </Grid>
