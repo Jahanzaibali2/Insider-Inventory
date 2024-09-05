@@ -1,18 +1,12 @@
 import React from 'react'
-import Header from './Components/NavBar/Header'
-import TextAndLabel from './Components/Body/TextAndLabels/TextAndLabel'
-import Footer from './Components/Footer/footer'
-import Textfield from './Components/General/Textfield'
 import "./App.css"
-import { BrowserRouter } from 'react-router-dom'
 import AppRouter from './Config/AppRouter'
-import Login from './Components/Body/TextAndLabels/LogIn/Login'
-import Card from './Components/General/Card'
+
 
 export default function App() {
   return (
     <>
-      <AppRouter />
+      {/* <AppRouter /> */}
       {/* <Card/> */}
     </>
   )

@@ -1,7 +1,6 @@
 import React from 'react'
-import img from "../../assets/pic1.png"
 import "./Card.css"
-import Button from './Button'
+import Button from '../Button/Button'
 
 
 export default function Cards({status,image,information = {
