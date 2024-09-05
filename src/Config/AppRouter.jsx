@@ -13,8 +13,6 @@ export default function AppRouter() {
         <Route path='/' element={<HomePage/>} />
         <Route path='/Login' element={<LoginPage/>} />
         <Route path='/SignUp' element={<SignInPage/>} />
-        
-
       </Routes>
     </BrowserRouter>
   )
