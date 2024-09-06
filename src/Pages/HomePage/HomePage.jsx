@@ -6,6 +6,8 @@ import img2 from '../../assets/pic3.png'
 import pic from "../../assets/r5.png"
 import pic22 from "../../assets/r3.png"
 import pic1 from "../../assets/pic4.png"
+import right from "../../assets/right.png"
+import left from "../../assets/left.png"
 import pro1 from "../../assets/Profile1.png"
 import pro2 from "../../assets/pro2.png"
 import Cards from '../../Components/Card/Card';
@@ -48,7 +50,10 @@ export default function HomePage() {
                 <div className="Grids">
                     <div className="Grids-Text">
                         <h1> Off-Market <span>Properties</span> </h1>
-                        <p>X---X</p>
+                        <div className="image-div">
+                            <img src={left} alt="left-logo" />
+                            <img src={right} alt="right-logo" />
+                        </div>
                     </div>
                     <CardsGrids />
                 </div>
@@ -65,6 +70,10 @@ export default function HomePage() {
                         <h1> What Our <span>Client Say</span> </h1>
                     </div>
                     <Review />
+                    <div className="image-div">
+                        <img src={left} alt="left-logo" />
+                        <img src={right} alt="right-logo" />
+                    </div>
                 </div>
 
             </div>
