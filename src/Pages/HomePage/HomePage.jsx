@@ -89,44 +89,50 @@ export default function HomePage() {
 }
 
 function SimpleSlider() {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 3
     };
     return (
+      <div className="slider-container">
         <Slider {...settings}>
-            <div>
-            <Grid container spacing={12}>
-                <Grid item xs={12} sm={6} md={4}>
-                    <Cards status={"Vacant"} image={img} information={{
+          <Cards status={"Vacant"} image={img} information={{
                         price: "450,000$",
                         percentage: "10%"
                     }} />
-                </Grid>
-
-                <Grid xs={12} sm={6} md={4}>
-                    <Cards status={"Owner Occupied"} image={img1} information={{
-                        price: "490,330$",
-                        percentage: "30%"
-                    }} />
-                </Grid>
-
-                <Grid item xs={12}>
-                    <Cards status={"Tenant Occupied"} image={img2} information={{
-                        price: "420,013$",
-                        percentage: "20%"
-                    }} />
-                </Grid>
-
-            </Grid>
-</div>
-    </Slider >
-        
-  );
-}
+          <div>
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+          <div>
+            <h3>7</h3>
+          </div>
+          <div>
+            <h3>8</h3>
+          </div>
+          <div>
+            <h3>9</h3>
+          </div>
+        </Slider>
+      </div>
+    );
+  }
 
 function CardsGrids() {
     return (
