@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Grid from '@mui/material/Grid2';
 import img from '../../assets/pic1.png'
 import img1 from '../../assets/pic2.png'
@@ -56,26 +58,31 @@ export default function HomePage() {
                             <img src={right} alt="right-logo" />
                         </div>
                     </div>
-                    {/* <CardsGrids /> */}
-                    <SimpleSlider/>
+                    <CardsGrids />
+                    {/* <SimpleSlider/> */}
                 </div>
 
                 <div className="Round-Cards">
+
                     <div className="Card-Text">
                         <h1> Off-Market <span>Property Types</span> </h1>
                     </div>
                     <RoundGrids />
+
                 </div>
 
                 <div className="Round-Cards">
+
                     <div className="Card-Text">
                         <h1> What Our <span>Client Say</span> </h1>
                     </div>
                     <Review />
+
                     <div className="image-div">
                         <img src={left} alt="left-logo" />
                         <img src={right} alt="right-logo" />
                     </div>
+                    
                 </div>
 
             </div>
@@ -90,49 +97,32 @@ export default function HomePage() {
 
 function SimpleSlider() {
     const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3
     };
     return (
-      <div className="slider-container">
-        <Slider {...settings}>
-          <Cards status={"Vacant"} image={img} information={{
-                        price: "450,000$",
-                        percentage: "10%"
-                    }} />
-          <div>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div>
-          <div>
-            <h3>9</h3>
-          </div>
-        </Slider>
-      </div>
+        <div className="slider-container">
+            <Slider {...settings}>
+                <Cards status={"Vacant"} image={img} information={{
+                    price: "450,000$",
+                    percentage: "10%"
+                }} />
+                <div>
+                </div>
+
+                <div>
+                    <h3>5</h3>
+                </div>
+                <div>
+                    <h3>6</h3>
+                </div>
+            </Slider>
+        </div>
     );
-  }
+}
 
 function CardsGrids() {
     return (
