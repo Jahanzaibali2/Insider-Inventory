@@ -42,7 +42,6 @@ export default function HomePage() {
                                     background: "transparent",
                                     border: "white 1px solid",
                                     color: "var(--green)"
-
                                 }}
 
                             />
